@@ -9,14 +9,14 @@ import SwiftUI
 
 @main
 struct ComposableReducerDemoApp: App {
-    static let store = Store(initialState: AppFeature.State()) {
-        AppFeature()
+    static let store = Store(initialState: ContactsFeature.State()) {
+        ContactsFeature()
             ._printChanges()
     }
 
     var body: some Scene {
         WindowGroup {
-            AppView(store: ComposableReducerDemoApp.store)
+            ContactsView(store: ComposableReducerDemoApp.store)
         }
     }
 }
