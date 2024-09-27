@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B21E7F9A2CA6371A00107103 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E7F992CA6371A00107103 /* AppView.swift */; };
 		B2A3E9012CA544B200CA5CDB /* ComposableReducerDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A3E9002CA544B200CA5CDB /* ComposableReducerDemoApp.swift */; };
 		B2A3E9052CA544B300CA5CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A3E9042CA544B300CA5CDB /* Assets.xcassets */; };
 		B2A3E9082CA544B300CA5CDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A3E9072CA544B300CA5CDB /* Preview Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		B21E7F982CA5531200107103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B21E7F992CA6371A00107103 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		B2A3E8FD2CA544B200CA5CDB /* ComposableReducerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComposableReducerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A3E9002CA544B200CA5CDB /* ComposableReducerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposableReducerDemoApp.swift; sourceTree = "<group>"; };
 		B2A3E9042CA544B300CA5CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				B21E7F982CA5531200107103 /* Info.plist */,
 				B2A3E9002CA544B200CA5CDB /* ComposableReducerDemoApp.swift */,
 				B2A3E9112CA54A2200CA5CDB /* CounterView.swift */,
+				B21E7F992CA6371A00107103 /* AppView.swift */,
 				B2A3E9042CA544B300CA5CDB /* Assets.xcassets */,
 				B2A3E9062CA544B300CA5CDB /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 			files = (
 				B2A3E9012CA544B200CA5CDB /* ComposableReducerDemoApp.swift in Sources */,
 				B2A3E9122CA54A2200CA5CDB /* CounterView.swift in Sources */,
+				B21E7F9A2CA6371A00107103 /* AppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
